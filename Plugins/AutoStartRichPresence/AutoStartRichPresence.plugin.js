@@ -104,7 +104,7 @@ let RPClient;
   				return new Promise((resolve, reject) => {
   					const port = opt.port = +opt.port || 443;
   					const socket = tls.connect({
-  						host: opt.host,
+  						host: opt.host,a
   						port,
   						servername: opt.host,
   						ALPNProtocols,
